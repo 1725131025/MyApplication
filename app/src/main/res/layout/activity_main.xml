@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="线性布局"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="80dp" />
+
+        <Button
+            android:id="@+id/bn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="相对布局"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="130dp" />
+
+        <Button
+            android:id="@+id/bn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="帧布局"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="180dp" />
+
+        <Button
+            android:id="@+id/bn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="表格布局"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="230dp" />
+
+        <Button
+            android:id="@+id/bn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="网格布局"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="280dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="1725131025 蒙昊" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

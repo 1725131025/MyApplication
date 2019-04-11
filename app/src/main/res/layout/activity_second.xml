@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_second">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="118dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/button01"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="第一个button" />
+
+        <Button
+            android:id="@+id/button02"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/button01"
+            android:text="第二个button" />
+
+
+        <Button
+            android:id="@+id/button03"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/button01"
+            android:text="第三个button" />
+
+        <Button
+            android:id="@+id/button04"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/button02"
+            android:layout_toRightOf="@+id/button03"
+            android:text="第四个button" />
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bn10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="461dp"
+        tools:ignore="MissingConstraints" />
+
+
+</android.support.constraint.ConstraintLayout>
